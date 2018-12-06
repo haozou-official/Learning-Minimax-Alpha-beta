@@ -7,4 +7,4 @@ In the Game tree node selection, Max always selects the minimum value in Min's m
 Alpha-beta is optimized on the basis of minimax, optimized on pruning, cut Cut out some unnecessary branches to reduce the number of traversal point nodes. The essence of the algorithm execution is: by passing two parameters of alpha and beta to recursive minimum maximal functions, alpha represents the worst case of Max, Beta represents the worst case of Min, so their initial value is negative infinity and positive infinity.
 In the recursive process, in the round to max, if the minimum value is larger than Alpha, the alpha is updated, and in the Min's turn, if the minimum maximum value is smaller than the beta, the beta is updated.
 
-![Game Tree](https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg)
+![Game Tree](https://github.com/zouhao0418/Learning-Minimax-Alpha-beta/blob/master/%E5%9B%BE%E7%89%87%201.png)
